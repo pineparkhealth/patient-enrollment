@@ -5,6 +5,8 @@
 A simple React app with an Express.js server has been setup to help you get started. You should fork this repo and
 complete the following tasks. You may use any libraries you like to complete the challenge.
 
+**Important Note About Requirements:** If you encounter any ambiguities or edge cases while completing this challenge, please note them down and include them in your submission. For the purposes of this exercise, our product team is away on vacation, so use your best judgment to make reasonable assumptions and continue with the implementation. Be prepared to discuss your decisions, including what alternative approaches you considered and why you chose your specific solution. This is a normal part of the development process, and we're interested in understanding your problem-solving approach and product intuition.
+
 Please limit yourself to no more than 2 hours for this project, we want to be sure to respect your time. We appreciate
 you taking the time to complete this challenge and look forward to reviewing your submission.
 

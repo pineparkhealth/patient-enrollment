@@ -22,6 +22,14 @@ export const patientRiskProfiles = [
     patientId: 1001,
   },
   {
+    deletedAt: new Date('2020-01-01'),
+    demographicCoefficients: [0.604],
+    diagnosisCoefficients: [0.25, 0.31],
+    segmentName: "CFA",
+    segmentDescription: "Community Full Benefit Dual Aged",
+    patientId: 1001,
+  },
+  {
     diagnosisCoefficients: [0.049, 0.8109999999999999],
     segmentName: "CFD",
     segmentDescription: "Community Full Benefit Dual Disabled",
@@ -35,6 +43,7 @@ export const patientRiskProfiles = [
     patientId: 1001,
   },
   {
+    demographicCoefficients: [null],
     diagnosisCoefficients: [0.128, 0.532],
     segmentName: "CND",
     segmentDescription: "Community NonDual Disabled",

@@ -15,8 +15,9 @@ export type Patient = {
 type RiskProfileSegment = "CFA" | "CFD" | "CNA" | "CND" | "CPA" | "CPD" | "INS" | "NE" | "SNPNE";
 
 export type PatientRiskProfile = {
-  demographicCoefficients?: number[];
-  diagnosisCoefficients?: number[];
+  deletedAt?: Date;
+  demographicCoefficients?: (number | null)[];
+  diagnosisCoefficients?: (number | null)[];
   segmentDescription: string;
   segmentName: RiskProfileSegment;
   patientId: number;
